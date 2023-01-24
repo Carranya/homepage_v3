@@ -10,6 +10,11 @@
 <body>
     <?php
         include 'pages/nav.php';
+        include 'pages/home.php';
+        include 'pages/portfolio.php';
+        include 'pages/it.php';
+        include 'pages/about.php';
+        include 'pages/footer.php';
     ?>
 </body>
 </html>
