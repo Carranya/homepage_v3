@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/output.css">
 </head>
 <body>
-    <div class='bg-blue-300 text-center'>Testing</div>
+    <?php
+        include 'pages/nav.php';
+    ?>
 </body>
 </html>
