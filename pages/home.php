@@ -1,7 +1,6 @@
-<div id='idHome' class='bg-green-200 h-screen'>
-    <div class='flex justify-center'>
-        <div class='w-4/5'>
-            <h1 class='mt-16'>Home</h1>
-        </div>
-    </div>
+<div id='idHome' class="bg-[url('/img/home.jpg')] bg-center bg-no-repeat bg-fixed bg-cover h-screen">
+<div class='text-center'>    
+    <h1 class='pt-1/2'>Karin Giang</h1>
+    <h2>Webentwicklerin</h2>
+</div>
 </div>
