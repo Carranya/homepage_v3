@@ -1,5 +1,6 @@
 <?php
     require('Model/Skill.php');
+    require('Model/Project.php');
 ?>
 
 <DOCTYPE html>
