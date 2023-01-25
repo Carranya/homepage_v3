@@ -1,3 +1,7 @@
+<?php
+    require('Model/Skill.php');
+?>
+
 <DOCTYPE html>
 <html lang="de">
 <head>
