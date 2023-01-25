@@ -6,9 +6,21 @@ use KG\Skill;
     <div class='flex justify-center'>
         <div class='w-4/5'>
             <h1 class='mt-16'>IT-Kenntnisse</h1>
-            <?php
-                $skill = (new SKill('lightpink'))->showSkill('HTML');
-            ?>
+            <div class='flex flex-wrap justify-center'>
+                <?php
+                    $skills = [
+                        'HTML',
+                        'PHP 8.1',
+                        'Javascript',
+                    ];
+
+                    $skillButton = new Skill('violet');
+
+                    foreach($skills as $skill){
+                        $skillButton->showSkill($skill);
+                    }
+                ?>
+            </div>
         </div>
     </div>
 </div>

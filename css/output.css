@@ -661,6 +661,10 @@ video {
   margin: 0.75rem;
 }
 
+.m-5 {
+  margin: 1.25rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -773,8 +777,28 @@ video {
   height: 25%;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
 .w-4\/5 {
   width: 80%;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .flex-shrink {
@@ -1546,6 +1570,10 @@ video {
   border-radius: 0.25rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -1856,6 +1884,16 @@ video {
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
