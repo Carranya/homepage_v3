@@ -10,7 +10,7 @@ class Project {
         </div>";
     }
 
-    public function showNewProject($link, $img, $title, $description){
+    public function showNewProject($img, $title, $description){
         echo "<div class='hover:scale-110 duration-100 m-5 shadow-xl bg-red-300 p-5 rounded-xl'>
             <img src='/img/portfolio/" . $img . ".jpg' class='ml-auto mr-auto w-80 opacity-40'>
             <div class='text-center text-blue-800 font-bold pt-3'>$title</div>

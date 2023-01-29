@@ -1,10 +1,30 @@
 <?php
 
-$groupe = [
-    'Webseiten',
-    'Aktuelle Projekte',
-    'Webtools und Games',
+
+
+// Webseiten
+$webs = [
+    ['link' => '', 'img' => 'verein', 'title' => 'Homepage von einer Verein (Demo)', 'description' => null],
+    ['link' => '', 'img' => 'xinxin', 'title' => 'China Restaurant Xin-Xin', 'description' => null],
+    ['link' => '', 'img' => 'homepage_v1', 'title' => 'My Homepage Version 1', 'description' => null],
+    ['link' => '', 'img' => 'homepage_v2', 'title' => 'My Homepage Version 2', 'description' => null],
+    ['link' => '', 'img' => 'website_proposal_1', 'title' => 'Webseite Vorschlag 1', 'description' => null],
+    ['link' => '', 'img' => 'website_proposal_2', 'title' => 'Webseite Vorschlag 2', 'description' => null],
+    ['link' => '', 'img' => 'website_proposal_3', 'title' => 'Webseite Vorschlag 3', 'description' => null],
+    ['link' => '', 'img' => 'website_proposal_4', 'title' => 'Webseite Vorschlag 4', 'description' => null],
 ];
+
+// Aktuelle Projekte
+$newWebs = [
+    ['img' => 'noImage', 'title' => 'Verein Real Life Café', 'description' => 'demnächst verfügbar...'],
+    ['img' => 'asatru', 'title' => 'Verein Asatru Schweiz', 'description' => 'demnächst verfügbar...'],
+    ['img' => 'noImage', 'title' => 'Restaurant Uncle 7', 'description' => 'demnächst verfügbar...'],
+];
+
+
+
+
+// Webtools und Mini-Games
 
 // Kitchenwiz
 $textKitchenWiz = '
@@ -73,23 +93,13 @@ sind vorinstalliert.<br>
 Weitere Wörter-Pakete folgen erscheinen in Kürze.          
 ';
 
-
-$projects = [
-    ['link' => '', 'img' => 'verein', 'title' => 'Homepage von einer Verein (Demo)', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '', 'img' => 'homepage_v1', 'title' => 'My Homepage Version 1', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '', 'img' => 'homepage_v1', 'title' => 'My Homepage Version 2', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '', 'img' => 'website_proposal_1', 'title' => 'Webseite Vorschlag 1', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '', 'img' => 'website_proposal_2', 'title' => 'Webseite Vorschlag 2', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '', 'img' => 'website_proposal_3', 'title' => 'Webseite Vorschlag 3', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '', 'img' => 'website_proposal_4', 'title' => 'Webseite Vorschlag 4', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '', 'img' => 'website_proposal_4', 'title' => 'Webseite Vorschlag 4', 'description' => null, 'groupe' => 'Webseiten'],
-    ['link' => '/projects/kitchenwiz/index.php', 'img' => 'kitchenwiz', 'title' => 'Kitchenwiz', 'description' => $textKitchenWiz, 'groupe' => 'Webtools und Games'],
-    ['link' => '/projects/tasklist/public/index.php', 'img' => 'tasklist', 'title' => 'Tasklist', 'description' => $textTasklist, 'groupe' => 'Webtools und Games'],
-    ['link' => '', 'img' => 'website_proposal_4', 'title' => 'Webseite Vorschlag 4', 'description' => 'coming soon', 'groupe' => 'Aktuelle Projekte'],
-    ['link' => '/projects/bomb-memory/index.php', 'img' => 'bombmemory', 'title' => 'Bomb Memory', 'description' => $textBombMemory, 'groupe' => 'Webtools und Games'],
-    ['link' => '/projects/codecracker/index.php', 'img' => 'codecracker', 'title' => 'Code Cracker', 'description' => $textCodecreacker, 'groupe' => 'Webtools und Games'],
-    ['link' => '/projects/kopfrechnen/index.htm', 'img' => 'kopfrechnen', 'title' => 'Kopfrechnen', 'description' => $textKopfrechnen, 'groupe' => 'Webtools und Games'],
-    ['link' => '/projects/memory-game/index.php', 'img' => 'memory-game', 'title' => 'Memory Game', 'description' => $textMemory, 'groupe' => 'Webtools und Games'],
-    ['link' => '/projects/treasure-digger/index.php', 'img' => 'treasure-digger', 'title' => 'Treasure Digger', 'description' => $textTreasureDigger, 'groupe' => 'Webtools und Games'],
-    ['link' => '/projects/voki/index.php', 'img' => 'voki', 'title' => 'Voki', 'description' => $textVoki, 'groupe' => 'Webtools und Games'],
+$tools = [
+    ['link' => '/projects/kitchenwiz/index.php', 'img' => 'kitchenwiz', 'title' => 'Kitchenwiz', 'description' => $textKitchenWiz],
+    ['link' => '/projects/tasklist/public/index.php', 'img' => 'tasklist', 'title' => 'Tasklist', 'description' => $textTasklist],
+    ['link' => '/projects/bomb-memory/index.php', 'img' => 'bombmemory', 'title' => 'Bomb Memory', 'description' => $textBombMemory],
+    ['link' => '/projects/codecracker/index.php', 'img' => 'codecracker', 'title' => 'Code Cracker', 'description' => $textCodecreacker],
+    ['link' => '/projects/kopfrechnen/index.htm', 'img' => 'kopfrechnen', 'title' => 'Kopfrechnen', 'description' => $textKopfrechnen],
+    ['link' => '/projects/memory-game/index.php', 'img' => 'memory-game', 'title' => 'Memory Game', 'description' => $textMemory],
+    ['link' => '/projects/treasure-digger/index.php', 'img' => 'treasure-digger', 'title' => 'Treasure Digger', 'description' => $textTreasureDigger],
+    ['link' => '/projects/voki/index.php', 'img' => 'voki', 'title' => 'Voki', 'description' => $textVoki],
 ];

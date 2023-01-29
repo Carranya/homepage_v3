@@ -8,7 +8,7 @@ include 'data/skills.php';
     <div class='flex justify-center'>
         <div class='w-3/4'>
             <h1 class='mt-16 mb-5 text-4xl font-bold underline text-center italic text-blue-800'>IT-Kenntnisse</h1>
-            <h1 class='mt-5 text-3xl font-bold text-center text-blue-800'>Programmiersprachen</h1>;
+            <h1 class='mt-5 text-3xl font-bold text-center text-blue-800'>Programmiersprachen</h1>
             <div class='flex flex-wrap justify-center'>
                 <?php
                     $skillButton = new Skill($colorSkill);
@@ -18,7 +18,7 @@ include 'data/skills.php';
                 ?>
             </div>
             <br><br>
-            <h1 class='mt-5 text-3xl font-bold text-center text-blue-800'>Software Kenntnisse</h1>;
+            <h1 class='mt-5 text-3xl font-bold text-center text-blue-800'>Software Kenntnisse</h1>
             <div class='flex flex-wrap justify-center'>
                 <?php
                     $appButton = new Skill($colorApp);
