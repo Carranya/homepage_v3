@@ -20,8 +20,9 @@ class Skill {
         text-xl
         font-bold
         hover:opacity-40
+        shadow-xl
+        " . $this->color . "
         '
-        style='background-color: " . $this->color . "'
         >" . $name . "</div>";
     }
 }

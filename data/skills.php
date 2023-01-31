@@ -1,7 +1,7 @@
 <?php
 
-$colorSkill = 'blue';
-$colorApp = 'green';
+$colorSkill = 'bg-blue-800';
+$colorApp = 'bg-green-800';
 
 $skills = [
     'HTML',

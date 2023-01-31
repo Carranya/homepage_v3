@@ -3,4 +3,5 @@
     <a href='#idPortfolio' class='p-3 hover:opacity-40 focus:opacity-40'>Portfolio</a>
     <a href='#idIt' class='p-3 hover:opacity-40 focus:opacity-40'>IT-Kenntnisse</a>
     <a href='#idAbout' class='p-3 hover:opacity-40 focus:opacity-40'>Über mich</a>
+    <a href='#idContact' class='p-3 hover:opacity-40 focus:opacity-40'>Kontakt</a>
 </div>

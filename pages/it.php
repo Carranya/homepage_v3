@@ -27,6 +27,11 @@ include 'data/skills.php';
                     }
                 ?>
             </div>
+            <div class='flex justify-center mt-10'>
+                <div class='w-72 h-28 p-3 m-5 bg-violet-600 rounded-xl flex justify-center items-center text-white text-2xl font-bold hover:scale-110 duration-100 shadow-xl'>
+                    Mein Lebenslauf (PDF)
+                </div>
+            </div>
         </div>
     </div>
 </div>
