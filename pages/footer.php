@@ -22,5 +22,5 @@
             </div>
         </div>
     </div>
-    <div class='p-3 text-center'>Karin Giang ©2023</div>
+    <div class='p-3 text-center'>©2023 Karin Giang </div>
 </div>
