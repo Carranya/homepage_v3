@@ -564,12 +564,20 @@ video {
   float: right;
 }
 
+.float-left {
+  float: left;
+}
+
 .m-5 {
   margin: 1.25rem;
 }
 
 .m-3 {
   margin: 0.75rem;
+}
+
+.m-0 {
+  margin: 0px;
 }
 
 .ml-auto {
@@ -608,8 +616,32 @@ video {
   margin-top: 0.75rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-24 {
@@ -656,6 +688,10 @@ video {
   width: 4rem;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -692,9 +728,9 @@ video {
   background-color: rgb(221 214 254 / var(--tw-bg-opacity));
 }
 
-.bg-violet-500 {
+.bg-red-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(139 92 246 / var(--tw-bg-opacity));
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-blue-200 {
@@ -710,16 +746,6 @@ video {
 .bg-blue-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(147 197 253 / var(--tw-bg-opacity));
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\/img\/home\.jpg\'\)\] {
@@ -760,6 +786,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .text-xl {
@@ -841,4 +871,58 @@ video {
 
 .focus\:opacity-40:focus {
   opacity: 0.4;
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:sticky {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+  .lg\:float-right {
+    float: right;
+  }
+
+  .lg\:m-3 {
+    margin: 0.75rem;
+  }
+
+  .lg\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .lg\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:contents {
+    display: contents;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }

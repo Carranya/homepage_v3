@@ -10,7 +10,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karin Giang - Webentwicklerin</title>
+    <link rel="icon" type="image/x-icon" href="img/icons/favicon.png">
     <link rel="stylesheet" href="css/output.css">
+    <script type='text/javascript' src='js/navi.js'></script>
 </head>
 <body>
     <?php

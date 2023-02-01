@@ -4,13 +4,20 @@ $colorSkill = 'bg-blue-800';
 $colorApp = 'bg-green-800';
 
 $skills = [
-    'HTML',
-    'PHP 8.1',
+    'HTML5',
+    'CSS3',
+    'PHP8.1',
     'Javascript',
+    'MySQL',
+    'Tailwind CSS',
+    'Symfony',
+    'Twig',
+    'Perl',
 ];
 
 $apps = [
-    'HTML',
-    'PHP 8.1',
-    'Javascript',
+    'Visual Studio<br>Code',
+    'Ubuntu',
+    'Git',
+    'Apache',
 ];

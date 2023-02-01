@@ -4,7 +4,7 @@ include 'data/skills.php';
 
 ?>
 
-<div id='idIt' class='bg-blue-200 h-screen'>
+<div id='idIt' class='bg-blue-200 pb-16'>
     <div class='flex justify-center'>
         <div class='w-3/4'>
             <h1 class='mt-16 mb-5 text-4xl font-bold underline text-center italic text-blue-800'>IT-Kenntnisse</h1>
@@ -29,7 +29,7 @@ include 'data/skills.php';
             </div>
             <div class='flex justify-center mt-10'>
                 <div class='w-72 h-28 p-3 m-5 bg-violet-600 rounded-xl flex justify-center items-center text-white text-2xl font-bold hover:scale-110 duration-100 shadow-xl'>
-                    Mein Lebenslauf (PDF)
+                    <a href='data/Lebenslauf_Karin_Giang.pdf' target='_blank'>Mein Lebenslauf (PDF)</a>
                 </div>
             </div>
         </div>

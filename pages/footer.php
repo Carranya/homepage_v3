@@ -1,13 +1,13 @@
 <div id='idContact' class='bg-red-200 text-sm'>
-    <div class='flex justify-center'>
-        <div class='m-3 p-3'>
+    <div class='lg:flex justify-center'>
+        <div class='ml-3 mr-3 lg:mb-3 lg:mt-3 p-3'>
             Karin Giang<br>
             Schützenmattstrasse 7<br>
             8302 Kloten<br>
             Schweiz
         </div>
 
-        <div class='m-3 p-3'>
+        <div class='ml-3 mr-3 lg:mb-3 lg:mt-3 p-3'>
             <div class='flex items-center'>
                 <img src='img/icons/phone.png' class='w-5'>
                 : 078 / 823 67 56

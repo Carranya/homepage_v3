@@ -1,7 +1,13 @@
 <div class='sticky top-0 bg-blue-300 text-center p-3 shadow-xl'>
-    <a href='#idHome' class='p-3 hover:opacity-40 focus:opacity-40'>Home</a>
-    <a href='#idPortfolio' class='p-3 hover:opacity-40 focus:opacity-40'>Portfolio</a>
-    <a href='#idIt' class='p-3 hover:opacity-40 focus:opacity-40'>IT-Kenntnisse</a>
-    <a href='#idAbout' class='p-3 hover:opacity-40 focus:opacity-40'>Über mich</a>
-    <a href='#idContact' class='p-3 hover:opacity-40 focus:opacity-40'>Kontakt</a>
+    <div class='lg:hidden flex justify-center'>
+        <img src='img/icons/navi.png' id='idOpen' class='w-10'>
+        <img src='img/icons/close.png' id='idClose' class='hidden'>
+    </div>
+    <ul id='idMenu' class='hidden lg:flex justify-center'>
+        <li id='menuHome' class='m-3'><a href='#idHome' class='hover:opacity-40 focus:opacity-40'>Home</a></li>
+        <li id='menuPortfolio' class='m-3'><a href='#idPortfolio' class='hover:opacity-40 focus:opacity-40'>Portfolio</a></li>
+        <li id='menuIt' class='m-3'><a href='#idIt' class='hover:opacity-40 focus:opacity-40'>IT-Kenntnisse</a></li>
+        <li id='menuAbout' class='m-3'><a href='#idAbout' class='hover:opacity-40 focus:opacity-40'>Über mich</a></li>
+        <li id='menuContact' class='m-3'><a href='#idContact' class='hover:opacity-40 focus:opacity-40'>Kontakt</a></li>
+    </ul>
 </div>

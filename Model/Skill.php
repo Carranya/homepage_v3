@@ -18,6 +18,7 @@ class Skill {
         items-center
         text-white
         text-xl
+        text-center
         font-bold
         hover:opacity-40
         shadow-xl
