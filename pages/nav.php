@@ -1,4 +1,4 @@
-<div class='sticky top-0 bg-blue-300 text-center p-3 shadow-xl'>
+<div class='sticky top-0 bg-blue-300 text-center p-3 shadow-xl text-blue-800 font-bold'>
     <div class='lg:hidden flex justify-center'>
         <img src='img/icons/navi.png' id='idOpen' class='w-10'>
         <img src='img/icons/close.png' id='idClose' class='hidden'>

@@ -1,4 +1,4 @@
-<div id='idContact' class='bg-red-200 text-sm'>
+<div id='idContact' class='bg-blue-300 text-sm'>
     <div class='lg:flex justify-center'>
         <div class='ml-3 mr-3 lg:mb-3 lg:mt-3 p-3'>
             Karin Giang<br>

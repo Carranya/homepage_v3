@@ -3,7 +3,7 @@
         <div class='w-1/2'>
             <h1 class='mt-16 mb-5 text-4xl font-bold underline text-center italic text-blue-800'>Über mich</h1>
             <span class='flex justify-center md:flex lg:block lg:float-right'><img src='img/karin.jpg' title='Karin Giang' class='w-80 rounded-xl ml-5 mb-5'></span>
-            <p>
+            <p class='text-blue-800'>
                 Guten Tag, ich bin Karin Giang.
                 <br><br>
                 Ich bin eine Programmiererin und Webentwicklerin.

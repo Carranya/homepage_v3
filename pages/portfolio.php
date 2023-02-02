@@ -3,7 +3,7 @@ use KG\Project;
 include 'data/projects.php';
 ?>
 
-<div id='idPortfolio' class='bg-red-200 pb-16'>
+<div id='idPortfolio' class='bg-green-200 pb-16'>
     <div class='flex justify-center'>
         <div class='w-3/4'>
             <h1 class='mt-16 mb-5 text-4xl font-bold underline text-center italic text-blue-800'>Portfolio</h1>
