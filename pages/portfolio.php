@@ -3,7 +3,7 @@ use KG\Project;
 include 'data/projects.php';
 ?>
 
-<div id='idPortfolio' class='bg-green-200 pb-16'>
+<div id='idPortfolio' class='bg-gradient-to-r from-green-300 to-red-200 pb-16'>
     <div class='flex justify-center'>
         <div class='w-3/4'>
             <h1 class='mt-16 mb-5 text-4xl font-bold underline text-center italic text-blue-800'>Portfolio</h1>
@@ -24,7 +24,7 @@ include 'data/projects.php';
                 <div class='flex flex-wrap justify-center'>
                     <?php
                         foreach($newWebs as $newWeb){    
-                            $showNewWeb = (new Project)->showNewProject($newWeb['img'], $newWeb['title'], $newWeb['description']); 
+                            $showNewWeb = (new Project)->showProject($newWeb['link'], $newWeb['img'], $newWeb['title'], $newWeb['description']); 
                         }
                     ?>
                 </div>

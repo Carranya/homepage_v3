@@ -1,4 +1,4 @@
-<div id='idContact' class='bg-blue-300 text-sm'>
+<div id='idContact' class='bg-gradient-to-r from-blue-100 to-blue-400 text-sm'>
     <div class='lg:flex justify-center'>
         <div class='ml-3 mr-3 lg:mb-3 lg:mt-3 p-3'>
             Karin Giang<br>
@@ -22,5 +22,5 @@
             </div>
         </div>
     </div>
-    <div class='p-3 text-center'>©2023 Karin Giang </div>
+    <div class='p-3 text-center'>Copyright ©2023 Karin Giang </div>
 </div>

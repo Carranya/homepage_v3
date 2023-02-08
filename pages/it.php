@@ -4,7 +4,7 @@ include 'data/skills.php';
 
 ?>
 
-<div id='idIt' class='bg-red-200 pb-16'>
+<div id='idIt' class='bg-gradient-to-r from-blue-300 to-green-300 pb-16'>
     <div class='flex justify-center'>
         <div class='w-3/4'>
             <h1 class='mt-16 mb-5 text-4xl font-bold underline text-center italic text-blue-800'>IT-Kenntnisse</h1>

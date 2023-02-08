@@ -16,9 +16,9 @@ $webs = [
 
 // Aktuelle Projekte
 $newWebs = [
-    ['img' => 'noImage', 'title' => 'Verein Real Life Café', 'description' => 'demnächst verfügbar...'],
-    ['img' => 'asatru', 'title' => 'Verein Asatru Schweiz', 'description' => 'demnächst verfügbar...'],
-    ['img' => 'noImage', 'title' => 'Restaurant Uncle 7', 'description' => 'demnächst verfügbar...'],
+    ['link' => '', 'img' => 'noImage', 'title' => 'Verein Real Life Café', 'description' => 'demnächst verfügbar...'],
+    ['link' => 'https://karingiang.ch/projects/asatru/index.php', 'img' => 'asatru', 'title' => 'Verein Asatru Schweiz', 'description' => 'Version Alpha verfügbar'],
+    ['link' => '', 'img' => 'uncle7', 'title' => 'Restaurant Uncle 7', 'description' => 'demnächst verfügbar...'],
 ];
 
 // Webtools und Mini-Games
