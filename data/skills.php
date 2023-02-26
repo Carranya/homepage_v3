@@ -12,6 +12,8 @@ $skills = [
     'Tailwind CSS',
     'Symfony',
     'Twig',
+    'Laravel',
+    'Blade',
     'Perl',
 ];
 

@@ -16,7 +16,7 @@ $webs = [
 
 // Aktuelle Projekte
 $newWebs = [
-    ['link' => '', 'img' => 'noImage', 'title' => 'Verein Real Life Café', 'description' => 'demnächst verfügbar...'],
+    ['link' => '', 'img' => 'rl', 'title' => 'Verein Real Life Café', 'description' => 'demnächst verfügbar...'],
     ['link' => 'https://karingiang.ch/projects/asatru/index.php', 'img' => 'asatru', 'title' => 'Verein Asatru Schweiz', 'description' => 'Version Alpha verfügbar'],
     ['link' => '', 'img' => 'uncle7', 'title' => 'Restaurant Uncle 7', 'description' => 'demnächst verfügbar...'],
 ];
