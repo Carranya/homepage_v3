@@ -17,8 +17,8 @@
                 <a href='mailto:karin.giang1982@gmail.com'>: karin.giang1982@gmail.com</a>
             </div>
             <div class='flex items-center mt-2'>
-                <a href='' class='mr-2'><img src='img/icons/github.png' class='w-8 hover:opacity-40'></a>
-                <a href='' class='mr-2'><img src='img/icons/linkedin.png' class='w-8 hover:opacity-40'></a>
+                <a href='https://github.com/Carranya' target='_blank' class='mr-2'><img src='img/icons/github.png' class='w-8 hover:opacity-40'></a>
+                <a href='https://www.linkedin.com/in/karin-giang-0a6072247/' target='_blank'  class='mr-2'><img src='img/icons/linkedin.png' class='w-8 hover:opacity-40'></a>
             </div>
         </div>
     </div>
